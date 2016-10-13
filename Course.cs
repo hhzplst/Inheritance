@@ -2,6 +2,10 @@ using System;
 
 namespace Inheritance {
   public class Course {
+    public Course(string title, int score) {
+      CourseTitle = title;
+      Score = score;
+    }
     string CourseTitle {get; set;}
     int Score {get; set;}
     public void PrintCourseInfo() {
