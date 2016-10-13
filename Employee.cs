@@ -2,12 +2,12 @@ using System;
 
 namespace Inheritance {
   public abstract class Employee : Person {
-    public abstract int TotalHour {get; set;}
-    public abstract int AvgHour {get; set;}
-    public abstract int TotalWage {get; set;}
+    public int TotalHour {get; set;}
+    public int AvgHour {get; set;}
+    public int TotalWage {get; set;}
     public string Department {get; set;}
     public Employee(string firstName, string lastName) : base(firstName, lastName) {}
-    
+
     public override string ToString() {
       return String.Format("**********************************************************\n" +
                            "{0, -10} {1, -15} {2, -15} {3, -20}{4, -10}{5, -10}{6, -10}\n" +
