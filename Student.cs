@@ -14,8 +14,7 @@ namespace Inheritance {
         c. PrintCourseInfo(); 
     }
     private void PrintHeader() {
-      Console.WriteLine("Printing Transcript");
-      Console.WriteLine("{0, -20}{1, 20}", "Title", "Score");
+      Console.WriteLine("{0, -20}{1, 10}\n******************************", "Title", "Score");
     }
   }
 }
