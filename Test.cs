@@ -8,7 +8,7 @@ namespace Inheritance {
       myStudent.AddTakenCourse(course);
       course = new Course("JAVA I", 70);
       myStudent.AddTakenCourse(course);
-      Console.WriteLine("Printing Transcript...");
+      Console.WriteLine("Printing Transcript for {0}...\n", myStudent.GetFullName());
       myStudent.PrintTranscript();
     }
     
