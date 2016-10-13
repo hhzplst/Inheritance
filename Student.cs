@@ -12,6 +12,7 @@ namespace Inheritance {
       PrintHeader();
       foreach (Course c in courses)
         c. PrintCourseInfo(); 
+      Console.WriteLine();
     }
     private void PrintHeader() {
       Console.WriteLine("{0, -20}{1, 10}\n******************************", "Title", "Score");
